@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39072" started-at="2020-04-27T21:14:19 IST" finished-at="2020-04-27T21:14:58 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39072" started-at="2020-04-27T21:14:19 IST" finished-at="2020-04-27T21:14:58 IST">
+      <class name="selenium.automation.web.Dynamic_dropdown">
+        <test-method status="PASS" signature="launch()[pri:0, instance:selenium.automation.web.Dynamic_dropdown@536aaa8d]" name="launch" is-config="true" duration-ms="16037" started-at="2020-04-27T21:14:19 IST" finished-at="2020-04-27T21:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dynamic_dropdown()[pri:0, instance:selenium.automation.web.Dynamic_dropdown@536aaa8d]" name="dynamic_dropdown" duration-ms="13048" started-at="2020-04-27T21:14:35 IST" finished-at="2020-04-27T21:14:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamic_dropdown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:selenium.automation.web.Dynamic_dropdown@536aaa8d]" name="close" is-config="true" duration-ms="9967" started-at="2020-04-27T21:14:48 IST" finished-at="2020-04-27T21:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- selenium.automation.web.Dynamic_dropdown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
