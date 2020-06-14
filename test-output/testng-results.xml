@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39072" started-at="2020-04-27T21:14:19 IST" finished-at="2020-04-27T21:14:58 IST">
+  <suite name="Default suite" duration-ms="13585" started-at="2020-06-10T23:56:05 IST" finished-at="2020-06-10T23:56:19 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39072" started-at="2020-04-27T21:14:19 IST" finished-at="2020-04-27T21:14:58 IST">
-      <class name="selenium.automation.web.Dynamic_dropdown">
-        <test-method status="PASS" signature="launch()[pri:0, instance:selenium.automation.web.Dynamic_dropdown@536aaa8d]" name="launch" is-config="true" duration-ms="16037" started-at="2020-04-27T21:14:19 IST" finished-at="2020-04-27T21:14:35 IST">
+    <test name="Default test" duration-ms="13585" started-at="2020-06-10T23:56:05 IST" finished-at="2020-06-10T23:56:19 IST">
+      <class name="selenium.automation.web.Autosuggestive">
+        <test-method status="PASS" signature="launch()[pri:0, instance:selenium.automation.web.Autosuggestive@59e5ddf]" name="launch" is-config="true" duration-ms="9940" started-at="2020-06-10T23:56:05 IST" finished-at="2020-06-10T23:56:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="dynamic_dropdown()[pri:0, instance:selenium.automation.web.Dynamic_dropdown@536aaa8d]" name="dynamic_dropdown" duration-ms="13048" started-at="2020-04-27T21:14:35 IST" finished-at="2020-04-27T21:14:48 IST">
+        <test-method status="FAIL" signature="method()[pri:0, instance:selenium.automation.web.Autosuggestive@59e5ddf]" name="method" duration-ms="3602" started-at="2020-06-10T23:56:15 IST" finished-at="2020-06-10T23:56:19 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-8N8BD9R', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\VENKAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5b1d6c6ecaae54d2ab498c83f848dce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-8N8BD9R', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\VENKAT\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5b1d6c6ecaae54d2ab498c83f848dce
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:181)
+at selenium.automation.web.Autosuggestive.method(Autosuggestive.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamic_dropdown -->
-        <test-method status="PASS" signature="close()[pri:0, instance:selenium.automation.web.Dynamic_dropdown@536aaa8d]" name="close" is-config="true" duration-ms="9967" started-at="2020-04-27T21:14:48 IST" finished-at="2020-04-27T21:14:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- selenium.automation.web.Dynamic_dropdown -->
+        </test-method> <!-- method -->
+      </class> <!-- selenium.automation.web.Autosuggestive -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -16,7 +16,7 @@ public class Frames_handling extends BaseClass{
 		List<WebElement> frames = driver.findElements(By.tagName("iframe"));
 		int size = frames.size();
 		System.out.println("thge total frames is : " + size);
-		WebElement frame = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
+		//WebElement frame = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
 		driver.switchTo().frame(0);
 		//driver.switchTo().frame(frame);
 		WebElement drag = driver.findElement(By.xpath("//div[@id='draggable']"));

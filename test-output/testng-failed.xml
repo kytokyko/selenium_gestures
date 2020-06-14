@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.automation.web.Table_exercise">
+      <class name="selenium.automation.web.Autosuggestive">
         <methods>
-          <include name="table"/>
-          <include name="close"/>
+          <include name="method"/>
           <include name="launch"/>
         </methods>
-      </class> <!-- selenium.automation.web.Table_exercise -->
+      </class> <!-- selenium.automation.web.Autosuggestive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
